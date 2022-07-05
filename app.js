@@ -52,3 +52,18 @@
 // for (let i = 0; i < str.length; i++) {
 //     console.log(str[i])
 // }
+
+// celcius question using functions (arrow too)
+
+// function celciusToFahrenheit (celcius) {
+//     return celcius * 1.8 + 32
+// } 
+// const arrowCelciusToFahrenheit = (celcius) => {
+//     return celcius * 1.8 + 32
+// }
+// console.log(celciusToFahrenheit(0))
+// console.log(celciusToFahrenheit(10))
+// console.log(celciusToFahrenheit(30))
+// console.log(arrowCelciusToFahrenheit(0))
+// console.log(arrowCelciusToFahrenheit(10))
+// console.log(arrowCelciusToFahrenheit(30))
