@@ -110,3 +110,22 @@
 //     newArrLoop.push(arr[i]*100)
 // }
 // console.log(newArrLoop)
+
+
+
+// creating a register function with objects
+
+// let newArr = []
+// function register (user) {
+//     newArr.push(user)
+//     return newArr
+// }
+// let user = {
+//     username: 'yenbson',
+//     email: 'yen@burger',
+//     password: 'helworld',
+//     subscriptionStatus: true,
+//     discordId: 'yen#123',
+//     lessons: [1,2,3,4]
+// }
+// console.log(register(user))
