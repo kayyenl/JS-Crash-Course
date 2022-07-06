@@ -31,6 +31,7 @@
 // console.log(resultStr)
 
 
+
 // FizzBuzz problem FES 
 // for (let i = 1; i <= 20; i++) {
 //     if (i % 3 === 0 && i % 5 === 0) {
@@ -47,11 +48,16 @@
 //     }
 // }
 
+
+
 // printing out every char in a word
+
 // const str = "Frontend Simplified"
 // for (let i = 0; i < str.length; i++) {
 //     console.log(str[i])
 // }
+
+
 
 // celcius question using functions (arrow too)
 
@@ -67,3 +73,40 @@
 // console.log(arrowCelciusToFahrenheit(0))
 // console.log(arrowCelciusToFahrenheit(10))
 // console.log(arrowCelciusToFahrenheit(30))
+
+
+
+// array filtering question 
+
+// let arr = ['A', 'A+', 'FAIL']
+// let filteredArr = arr.filter(elem => elem !== 'FAIL')
+// console.log(filteredArr)
+
+
+// console log all the filtered using a loop
+
+// let arr = ['A', 'A-', 'FAIL']
+// let goodGrades = []
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] !== 'FAIL') goodGrades.push(arr[i])
+// }
+// console.log(goodGrades)
+
+
+// array mapping an array of dollars into cents
+
+// short way
+// let arr = [1,5, 10, 3]
+// let newArr = arr.map(elem => elem*100)
+// console.log(newArr)
+// long way
+// let newArrLong = arr.map ( (element) => {
+//     return element*100
+// })
+// console.log(newArrLong)
+// using only for loop (brute force)
+// let newArrLoop = []
+// for (let i = 0; i < arr.length; i++) {
+//     newArrLoop.push(arr[i]*100)
+// }
+// console.log(newArrLoop)
