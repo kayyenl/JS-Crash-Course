@@ -143,7 +143,7 @@ console.log(document.getElementById('title'));
 // only works for id, not classes
 
 // After accessing the id or class, we can then proceed to change the content.
-document.querySelector('#title').innerHTML = "Frontend Simplified"
+document.querySelector('#title').innerHTML = "Merry Christmas"
 
 
 //TO CHANGE CSS: accessing the elem is the same, but now instead of 
@@ -151,4 +151,13 @@ document.querySelector('#title').innerHTML = "Frontend Simplified"
 
 document.querySelector('#title').style.color = 'red'
 document.querySelector('#title').style.fontSize = '80px'
+
+//click listeners, put onclick to the <> like onclick = "function"
+//in order to activate the function.
+
+function clickToChange() {
+    if (document.querySelector('#title').style.color === 'green')
+    document.querySelector('#title').style.color = 'red'
+    else document.querySelector('#title').style.color = 'green'
+}
 
