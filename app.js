@@ -132,6 +132,8 @@
 
 
 // DOMS:
+
+//TO CHANGE HTML
 // first way of accessing an element
 console.log(document.querySelector('#title'));
 //good for classes, not usually used for id.
@@ -139,4 +141,14 @@ console.log(document.querySelector('#title'));
 // second way of accessing an element
 console.log(document.getElementById('title'));
 // only works for id, not classes
+
+// After accessing the id or class, we can then proceed to change the content.
+document.querySelector('#title').innerHTML = "Frontend Simplified"
+
+
+//TO CHANGE CSS: accessing the elem is the same, but now instead of 
+//innerHTML, we access the .style
+
+document.querySelector('#title').style.color = 'red'
+document.querySelector('#title').style.fontSize = '80px'
 
