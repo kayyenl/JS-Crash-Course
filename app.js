@@ -129,3 +129,14 @@
 //     lessons: [1,2,3,4]
 // }
 // console.log(register(user))
+
+
+// DOMS:
+// first way of accessing an element
+console.log(document.querySelector('#title'));
+//good for classes, not usually used for id.
+
+// second way of accessing an element
+console.log(document.getElementById('title'));
+// only works for id, not classes
+
